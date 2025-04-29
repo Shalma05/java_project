@@ -49,66 +49,116 @@ DEFAULT ADMIN LOGIN:
 PROJECT STRUCTURE:
 
 TourismManagementSystem/
+
 │
+
 ├── src/
+
 │   ├── main/
+
 │   │   └── Main.java
+
 │   │
+
 │   ├── models/
+
 │   │   ├── User.java
+
 │   │   ├── Package.java
+
 │   │   ├── Booking.java
+
 │   │   ├── Hotel.java
+
 │   │   └── HotelBooking.java
+
 │   │
+
 │   ├── dao/
+
 │   │   ├── UserDAO.java
+
 │   │   ├── PackageDAO.java
+
 │   │   ├── BookingDAO.java
+
 │   │   ├── HotelDAO.java
+
 │   │   └── HotelBookingDAO.java
+
 │   │
+
 │   ├── gui/
+
 │   │   ├── LoginFrame.java
+
 │   │   ├── RegisterFrame.java
+
 │   │   ├── UserDashboard.java
+
 │   │   ├── AdminDashboard.java
+
 │   │   ├── PackagesPanel.java (or BrowsePackagesPanel.java)
+
 │   │   ├── BookPackageFrame.java
+
 │   │   ├── BrowseHotelsPanel.java (or HotelsPanel.java)
+
 │   │   ├── BookHotelFrame.java
+
 │   │   ├── UserBookingsPanel.java
+
 │   │   ├── UserHotelBookingsPanel.java
+
 │   │   ├── ManageUsersPanel.java
+
 │   │   ├── ManagePackagesPanel.java
+
 │   │   ├── ManageHotelsPanel.java
+
 │   │   ├── ViewBookingsPanel.java
+
 │   │   ├── ViewHotelBookingsPanel.java
+
 │   │   ├── ButtonRenderer.java
+
 │   │   └── ButtonEditor.java
+
 │   │
+
 │   └── utils/
+
 │       ├── DatabaseConnection.java
+
 │       └── DateUtils.java
+
 │
+
 ├── lib/
+
 │   ├── mysql-connector-j-8.0.xx.jar
+
 │   └── jcalendar-1.4.jar (optional)
+
 │
+
 └── database/
+
     └── tourism_db.sql
 
 
 FUTURE ENHANCEMENTS:
 
-•Payment gateway integration
+💳 Payment gateway integration
 
-•Email notifications for bookings
+📧 Email notifications for bookings
 
-•User reviews and ratings
+🌟 User reviews and ratings
 
-•Advanced search and filtering options
+🔎 Advanced search and filtering
 
-•Reports and analytics for admin..can you give me in a way to put in the readme file in github
+📊 Reports and analytics for admin panel options
+
+
 
 
