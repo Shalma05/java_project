@@ -4,10 +4,15 @@ A Java-based desktop application for managing tourism packages, hotels, bookings
 
 Features
 •User authentication (login/register)
+
 •Browse and book tour packages
+
 •Browse and book hotels
+
 •View and manage bookings
+
 •Admin panel for managing users, packages, hotels, and bookings
+
 
 Technologies Used
 •Java Swing for the GUI
